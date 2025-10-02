@@ -1738,17 +1738,17 @@
             let burger = document.querySelector('.burger');
             let block = document.querySelector('.block');
             burger.addEventListener('click',  ()=>{
-                menu.classList.toggle('open');
-                block.classList.toggle('open');
+                menu.classList.add('open');
+                block.classList.add('open');
             });
             document.querySelector('.block').addEventListener('click',  () => {
-                menu.classList.toggle('open');
-                block.classList.toggle('open');
+                menu.classList.remove('open');
+                block.classList.remove('open');
             });
             document.querySelectorAll('.menu-item').forEach((elem) => {
                 elem.addEventListener('click',  () => {
-                    menu.classList.toggle('open');
-                    block.classList.toggle('open');
+                    menu.classList.remove('open');
+                    block.classList.remove('open');
                 });
             });
         }else{
