@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Лунтикс</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,41 +24,35 @@
 
     </main>
     <footer>Copyright 2025</footer>
+    <div class="block"></div>
     <template id="tpl-main">
         <section id="main" class="template" style="display:block">
-            <nav role="menu">
-                <a class="menu-item" href="#biography"><b>Биография</b></a>
-                <a class="menu-item" href="#personality"><b>Характер</b></a>
-                <a class="menu-item" href="#hobbies"><b>Интересы и познания</b></a>
-                <a class="menu-item" href="#appearance"><b>Внешний вид</b></a>
-                <a class="menu-item" href="#facts"><b>Интересные факты</b></a>
-                <a class="menu-item" href="#gallery"><b>Галерея</b></a>
-            </nav>
+            <div class="menu">
+                <div class="burger" role="button" tabindex="0" aria-expanded="false" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav role="menu">
+                    <a class="menu-item" href="#biography"><b>Биография</b></a>
+                    <a class="menu-item" href="#personality"><b>Характер</b></a>
+                    <a class="menu-item" href="#hobbies"><b>Интересы и познания</b></a>
+                    <a class="menu-item" href="#appearance"><b>Внешний вид</b></a>
+                    <a class="menu-item" href="#facts"><b>Интересные факты</b></a>
+                    <a class="menu-item" href="#gallery"><b>Галерея</b></a>
+                </nav>
+            </div>
             <section role="main">
                 <h1 class="page-title">Лунтик</h1>
-                <div class="caption">
-                    <img src="assets/luntik.webp" class="img-main" alt="">
-                </div>
-                <table>
-                    <tbody>
-                    <tr>
-                        <td style="width:15px; vertical-align:top;  padding-right:10px; color: #b18ccc">
-                            <b><span style="font-size: xxx-large; ">"</span></b>
-                        </td>
-                        <td>
-                            <span style="font-style:italic">Я родился!</span>
-                            <div style="clear:both"></div>
-                            <div style="float:right">— Лунтик после того, как родилcя.</div>
-                        </td>
-                        <td style="width:15px; vertical-align:bottom; padding-top:30px; padding-left:10px; color: #b18ccc">
-                            <b><span style="font-size: xxx-large; ">"</span></b>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+                <img src="assets/characters/luntik.webp" class="img-main" alt="">
+                <blockquote class="quote">
+                    <span class="quote-mark">“</span>
+                    <span class="quote-text"><i>Я родился!</i><br>— Лунтик после того, как родился.</span>
+                    <span class="quote-mark">”</span>
+                </blockquote>
                 <section class="about">
                     <p>
-                        Лунтик — главный персонаж российского мультсериала
+                        <b>Лунтик</b> — главный персонаж российского мультсериала
                         «<a class="link" href="#luntik-friends">Лунтик и его друзья</a>»
                         и <a class='link' href="#film">полнометражного фильма</a>
                         (также фигурирует как главный персонаж в некоторых
@@ -299,9 +293,9 @@
         <section id="field" class="template">
             <section role="main">
                 <h1 class="page-title sub">Лес (поляна)</h1>
-                <img src="assets/field.webp" class="img-main" alt="">
+                <img src="assets/places/field.webp" class="img-main" alt="">
                 <section class="about">
-                    <p>Лес, поляна, луг, долина, деревня — названия главной локации,
+                    <p><b>Лес, поляна, луг, долина, деревня</b> — названия главной локации,
                         где происходят почти все события мультсериала
                         <a class="link" href="#luntik-friends">Лунтик и его друзья</a>.
                     </p>
@@ -325,8 +319,8 @@
                 <img src="assets/luntik-friends.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        «Лунтик и его друзья» (в английском дубляже — Moonzy, ранее —
-                        «Приключения Лунтика и его друзей») — российский популярный мультсериал,
+                        <b>«Лунтик и его друзья»</b> (в английском дубляже — <b>Moonzy</b>, ранее —
+                        <b>«Приключения Лунтика и его друзей»</b>) — российский популярный мультсериал,
                         транслирующийся на телевидении с 1 сентября 2006 года по настоящее время.
                         Ключевой темой стали приключения маленького пушистого существа <a class="link"
                                                                                           href="#">Лунтика</a> —
@@ -350,10 +344,10 @@
         <section id="grass" class="template">
             <section role="main">
                 <h1 class="page-title sub">Трава</h1>
-                <img src="assets/grass.webp" class="img-main" alt="">
+                <img src="assets/places/grass.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Трава — растение, прорастающее на Лугу, в лесу, на полянках.
+                        <b>Трава</b> — растение, прорастающее на Лугу, в лесу, на полянках.
                     </p>
                     <p>
                         Трава растёт в большинстве мест, где разворачиваются события сериала.
@@ -374,10 +368,10 @@
         <section id="moon-bee" class="template">
             <section role="main">
                 <h1 class="page-title sub">Лунная пчела</h1>
-                <img src="assets/moon-bee.webp" class="img-main" alt="">
+                <img src="assets/characters/moon-bee.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Лунная пчела — название вида внеземных существ. Единственные на данный момент известные
+                        <b>Лунная пчела</b> — название вида внеземных существ. Единственные на данный момент известные
                         живые представители —
                         <a class="link" href="#">Лунтик</a>,
                         <a class="link" href="#mom">его мама</a>,
@@ -412,10 +406,10 @@
         <section id="moon-place" class="template">
             <section role="main">
                 <h1 class="page-title sub">Луна (место)</h1>
-                <img src="assets/moon-place.webp" class="img-main" alt="">
+                <img src="assets/places/moon-place.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Луна — спутник Земли, место рождения <a class="link" href="#">Лунтика</a> и
+                        <b>Луна</b> — спутник Земли, место рождения <a class="link" href="#">Лунтика</a> и
                         <a class="link" href="#moon-char">Луны</a>. В честь неё они
                         (а также игрушка <a class="link" href="#moonya">Луня</a>) и получили своё имя.
                     </p>
@@ -440,12 +434,10 @@
         <section id="moon-char" class="template">
             <section role="main">
                 <h1 class="page-title sub">Луна (персонаж)</h1>
-                <div class="caption">
-                    <img src="assets/moon-char.webp" class="img-main" alt="">
-                </div>
+                <img src="assets/characters/moon-char.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Лýна — новый персонаж, лунная пчела женского пола.
+                        <b>Лýна</b> — новый персонаж, лунная пчела женского пола.
                         Лучшая подруга <a class="link" href="#">Лунтика</a>
                         с которым она познакомилась в 509 эпизоде «Лунная подруга».
                         Постепенно стала главным героем.
@@ -467,10 +459,10 @@
         <section id="moonya" class="template">
             <section role="main">
                 <h1 class="page-title sub">Луна (персонаж)</h1>
-                <img src="assets/moonya.webp" class="img-main" alt="">
+                <img src="assets/characters/moonya.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Луня — плюшевая игрушка <a class="link" href="#">Лунтика</a> в виде
+                        <b>Луня</b> — плюшевая игрушка <a class="link" href="#">Лунтика</a> в виде
                         <a class="link" href="#moon-bee">Лунной пчелы</a>.
                         Появляется в сериях «Бабай» и «Страна игрушек»,
                         в последней серии оживает во сне Лунтика.
@@ -497,10 +489,10 @@
         <section id="kapa" class="template">
             <section role="main">
                 <h1 class="page-title sub">Баба Капа</h1>
-                <img src="assets/kapa.webp" class="img-main" alt="">
+                <img src="assets/characters/kapa.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Баба Капа (Капитолина, Капочка) — добрая пожилая пчела.
+                        <b>Баба Капа (Капитолина, Капочка)</b> — добрая пожилая пчела.
                         Супруга <a class="link" href="#sher">Генерала Шера</a>
                         и приёмная бабушка <a class="link" href="#">Лунтика</a>.
                         Живёт в <a class="link" href="#bee-home">доме диких пчёл</a>.
@@ -527,10 +519,10 @@
         <section id="sher" class="template">
             <section role="main">
                 <h1 class="page-title sub">Дед Шер</h1>
-                <img src="assets/sher.webp" class="img-main" alt="">
+                <img src="assets/characters/sher.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Дед Шер (также Генерал Шер, Шершуля, Шер, Дедуля) — генерал в отставке.
+                        <b>Дед Шер (также Генерал Шер, Шершуля, Шер, Дедуля)</b> — генерал в отставке.
                         Названный дедушка <a class="link" href="#">Лунтика</a>
                         и муж <a class="link" href="#kapa">Бабы Капы</a>.
                         Очень любит бабу Капу, которая зовет его ласковым прозвищем «Шершуля».
@@ -557,10 +549,10 @@
         <section id="mom" class="template">
             <section role="main">
                 <h1 class="page-title sub">Мама Лунтика</h1>
-                <img src="assets/mom.webp" class="img-main" alt="">
+                <img src="assets/characters/mom.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Мама Лунтика — персонаж, который появляется в фильме
+                        <b>Мама Лунтика</b> — персонаж, который появляется в фильме
                         <a class="link" href="#film">«Лунтик. Возвращение домой»</a>,
                         и кому посвящена одна из песен.
                     </p>
@@ -590,10 +582,10 @@
         <section id="bee-home" class="template">
             <section role="main">
                 <h1 class="page-title sub">Дом диких пчёл</h1>
-                <img src="assets/bee-home.webp" class="img-main" alt="">
+                <img src="assets/places/bee-home.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Дом диких пчёл, также дом Лунтика — дом, в котором в настоящее время
+                        <b>Дом диких пчёл, также дом Лунтика</b> — дом, в котором в настоящее время
                         проживают <a class="link" href="#">Лунтик</a>,
                         <a class="link" href="#kapa">баба Капа</a> и
                         <a class="link" href="#sher">генерал Шер</a>. Считается вторым домом Лунтика,
@@ -622,10 +614,10 @@
         <section id="tent" class="template">
             <section role="main">
                 <h1 class="page-title sub">Домик Лунтика</h1>
-                <img src="assets/tent.webp" class="img-main" alt="">
+                <img src="assets/places/tent.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Домик Лунтика — дом, в котором изначально жил <a class="link" href="#">Лунтик</a>,
+                        <b>Домик Лунтика</b> — дом, в котором изначально жил <a class="link" href="#">Лунтик</a>,
                         а потом начал использовать его в своих играх.
                     </p>
                     <p>
@@ -653,10 +645,10 @@
         <section id="kuzya" class="template">
             <section role="main">
                 <h1 class="page-title sub">Кузя</h1>
-                <img src="assets/kuzya.webp" class="img-main" alt="">
+                <img src="assets/characters/kuzya.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Кузя — один из основных персонажей мультфильма и полнометражного фильма,
+                        <b>Кузя</b> — один из основных персонажей мультфильма и полнометражного фильма,
                         зелёный кузнечик, который постоянно ищет приключения на свою зеленую голову.
                         Кузя стал первым, а позже лучшим другом <a class="link" href="#">Лунтика</a>
                         в серии «Сон».
@@ -696,10 +688,10 @@
         <section id="pchelenok" class="template">
             <section role="main">
                 <h1 class="page-title sub">Пчелёнок</h1>
-                <img src="assets/pchelenok.webp" class="img-main" alt="">
+                <img src="assets/characters/pchelenok.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Пчелёнок (настоящее имя — Тёма, Артём) — один из основных персонажей
+                        <b>Пчелёнок (настоящее имя — Тёма, Артём)</b> — один из основных персонажей
                         мультсериала <a class="link" href="#luntik-friends">«Лунтик и его друзья»</a>.
                         Друг <a class="link" href="#">Лунтика</a>, который ходит в школу
                         пчёл и учится базовым навыкам пчелы.
@@ -736,10 +728,10 @@
         <section id="bee-school" class="template">
             <section role="main">
                 <h1 class="page-title sub">Школа пчелят</h1>
-                <img src="assets/bee-school.webp" class="img-main" alt="">
+                <img src="assets/places/bee-school.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Школа пчелят — место, где учатся
+                        <b>Школа пчелят</b> — место, где учатся
                         <a class="link" href="#bee-students">пчелята</a>.
                     </p>
                     <p>
@@ -765,10 +757,10 @@
         <section id="bee-students" class="template">
             <section role="main">
                 <h1 class="page-title sub">Пчелята</h1>
-                <img src="assets/bee-students.webp" class="img-main" alt="">
+                <img src="assets/characters/bee-students.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Пчелята — ученики <a class="link" href="#bee-school">пчелиной школы</a>.
+                        <b>Пчелята</b> — ученики <a class="link" href="#bee-school">пчелиной школы</a>.
                         Как и <a class="link" href="#">Пчелёнок</a>,
                         собирают нектар и учатся в школе. Часто присутствуют на разных
                         мероприятиях, или иногда могут участвовать в них сами.
@@ -790,10 +782,10 @@
         <section id="bee-teacher" class="template">
             <section role="main">
                 <h1 class="page-title sub">Учительница</h1>
-                <img src="assets/bee-teacher.webp" class="img-main" alt="">
+                <img src="assets/characters/bee-teacher.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Учительница — пчела-наставница в классе <a class="link" href="#pchelenok">Пчелёнка</a>
+                        <b>Учительница</b> — пчела-наставница в классе <a class="link" href="#pchelenok">Пчелёнка</a>
                         в <a class="link" href="#bee-school">школе пчелят</a>
                         и по совместительству детская медсестра, а также заведующая
                         <a class="link" href="#store">магазином</a>.
@@ -820,10 +812,10 @@
         <section id="store" class="template">
             <section role="main">
                 <h1 class="page-title sub">Магазин</h1>
-                <img src="assets/store.webp" class="img-main" alt="">
+                <img src="assets/places/store.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Магазин - эпизодическая локация в <a class="link" href="#field">Лесу</a>.
+                        <b>Магазин</b> - эпизодическая локация в <a class="link" href="#field">Лесу</a>.
                         Появляется в серии «Мороженое».
                     </p>
                     <p>
@@ -843,10 +835,10 @@
         <section id="hive" class="template">
             <section role="main">
                 <h1 class="page-title sub">Улей</h1>
-                <img src="assets/hive.webp" class="img-main" alt="">
+                <img src="assets/places/hive.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Улей — место, где живёт много пчёл, в том числе
+                        <b>Улей</b> — место, где живёт много пчёл, в том числе
                         <a class="link" href="#pchelenok">Пчелёнок</a>.
                         Ещё около него находится <a class="link" href="#store">Магазин</a>.
                     </p>
@@ -878,10 +870,10 @@
         <section id="willow" class="template">
             <section role="main">
                 <h1 class="page-title sub">Ива</h1>
-                <img src="assets/willow.webp" class="img-main" alt="">
+                <img src="assets/places/willow.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Ива — высокое дерево, растущее у <a class="link" href="#pond">пруда</a>.
+                        <b>Ива</b> — высокое дерево, растущее у <a class="link" href="#pond">пруда</a>.
                         Одна из основных локаций в <a class="link" href="#luntik-friends">мультсериале</a>.
                         Высоко на стволе ивы находится
                         <a class="link" href="#bee-home">дом Шера и Капы</a>,
@@ -910,10 +902,10 @@
         <section id="pond" class="template">
             <section role="main">
                 <h1 class="page-title sub">Пруд</h1>
-                <img src="assets/pond.webp" class="img-main" alt="">
+                <img src="assets/places/pond.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Пруд — одна из главных локаций мультсериала.
+                        <b>Пруд</b> — одна из главных локаций мультсериала.
                         Представляет собой водоём посреди <a class="link" href="#field">поляны</a>.
                     </p>
                     <p>
@@ -944,10 +936,10 @@
         <section id="peskar-ivanovich" class="template">
             <section role="main">
                 <h1 class="page-title sub">Пескарь Иванович</h1>
-                <img src="assets/peskar-ivanovich.webp" class="img-main" alt="">
+                <img src="assets/characters/peskar-ivanovich.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Пескарь Иванович — интеллигентная рыба-пескарь,
+                        <b>Пескарь Иванович</b> — интеллигентная рыба-пескарь,
                         следящая за порядком и спокойствием в пруду.
                         Практически всегда носит цилиндр и монокль.
                         Не любит суеты. Следит за жизнью в пруду и пресекает беспорядки на дне.
@@ -966,10 +958,10 @@
         <section id="water-beetle" class="template">
             <section role="main">
                 <h1 class="page-title sub">Плавунцы</h1>
-                <img src="assets/water-beetle.webp" class="img-main" alt="">
+                <img src="assets/characters/water-beetle.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Плавунцы — большая шустрая компания юных жуков-плавунцов.
+                        <b>Плавунцы</b> — большая шустрая компания юных жуков-плавунцов.
                         Живут в пруду в дупле коряги. Появились в самой
                         первой серии мультсериала - «Лунный гость».
                     </p>
@@ -995,10 +987,10 @@
         <section id="motya" class="template">
             <section role="main">
                 <h1 class="page-title sub">Тётя Мотя</h1>
-                <img src="assets/motya.webp" class="img-main" alt="">
+                <img src="assets/characters/motya.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Тётя Мотя — медленная, вежливая, интеллигентная черепаха.
+                        <b>Тётя Мотя</b> — медленная, вежливая, интеллигентная черепаха.
                         Живёт под водой в большом <a class="link" href="#motya-home">доме</a>
                         (первый дом, в который попал <a class="link" href="#">Лунтик</a>).
                     </p>
@@ -1025,10 +1017,10 @@
         <section id="motya-home" class="template">
             <section role="main">
                 <h1 class="page-title sub">Дом Тёти Моти</h1>
-                <img src="assets/motya-home.webp" class="img-main" alt="">
+                <img src="assets/places/motya-home.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Дом Тёти Моти — дом в <a class="link" href="#pond">пруду</a>,
+                        <b>Дом Тёти Моти</b> — дом в <a class="link" href="#pond">пруду</a>,
                         один из домов, в которых живёт черепаха.
                     </p>
                     <p>
@@ -1050,10 +1042,10 @@
         <section id="chikibryak" class="template">
             <section role="main">
                 <h1 class="page-title sub">Рак Чикибряк</h1>
-                <img src="assets/chikibryak.webp" class="img-main" alt="">
+                <img src="assets/characters/chikibryak.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Рак Чикибряк (иногда Дядя Рак) — трусливый (или скорее склонный к панике)
+                        <b>Рак Чикибряк (иногда Дядя Рак)</b> — трусливый (или скорее склонный к панике)
                         рак-отшельник. Имеет свой дом-раковину, который носит на себе.
                         Туда он прячется в случае опасности и очень дорожит им.
                     </p>
@@ -1081,10 +1073,10 @@
         <section id="mila" class="template">
             <section role="main">
                 <h1 class="page-title sub">Мила</h1>
-                <img src="assets/mila.webp" class="img-main" alt="">
+                <img src="assets/characters/mila.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Мила — одна из главных персонажей
+                        <b>Мила</b> — одна из главных персонажей
                         <a class="link" href="#luntik-friends">мультфильма</a> и
                         <a class="link" href="#film">полнометражного фильма</a>.
                         Божья коровка, подруга <a class="link" href="#">Лунтика</a>.
@@ -1141,7 +1133,7 @@
                 <img src="assets/film.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Лунтик: Возвращение домой — российский анимационный фильм,
+                        <b>Лунтик: Возвращение домой</b> — российский анимационный фильм,
                         производством которого занимались студия Мельница, кинокомпания
                         СТВ и телеканал Россия-1.
                         Первоначальный сценарий был написан примерно в 2013-ом году,
@@ -1169,10 +1161,10 @@
         <section id="pupsenvupsen" class="template">
             <section role="main">
                 <h1 class="page-title sub">Вупсень и Пупсень</h1>
-                <img src="assets/pupsenvupsen.webp" class="img-main" alt="">
+                <img src="assets/characters/pupsenvupsen.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Вупсень и Пупсень (гусеницы) — одни из основных персонажей мультсериала
+                        <b>Вупсень и Пупсень (гусеницы)</b> — одни из основных персонажей мультсериала
                         <a class="link" href="#luntik-friends">«Лунтик и его друзья»</a>.
                         В первых сериях очень часто вредничают и грубо разговаривают.
                         Любят устраивать всевозможные проделки и злые шутки.
@@ -1236,10 +1228,10 @@
         <section id="pond-field" class="template">
             <section role="main">
                 <h1 class="page-title sub">Лунтик: Возвращение домой</h1>
-                <img src="assets/pond-field.webp" class="img-main" alt="">
+                <img src="assets/places/pond-field.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Поляна у пруда — одно из мест мультсериала. Поляна,
+                        <b>Поляна у пруда</b> — одно из мест мультсериала. Поляна,
                         на которой <a class="link" href="#mila">Мила</a> любит лепить
                         куличики и строить песочные замки.
                     </p>
@@ -1258,10 +1250,10 @@
         <section id="shnuk-home" class="template">
             <section role="main">
                 <h1 class="page-title sub">Дом Шнюка</h1>
-                <img src="assets/shnuk-home.webp" class="img-main" alt="">
+                <img src="assets/places/shnuk-home.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Дом Шнюка (также дом Луны) —
+                        <b>Дом Шнюка (также дом Луны)</b> —
                         домик, в котором проживают <a class="link" href="#shnuk">дядя Шнюк</a> и
                         <a class="link" href="#moon-char">Луна</a>.
                     </p>
@@ -1296,12 +1288,10 @@
         <section id="shnuk" class="template">
             <section role="main">
                 <h1 class="page-title sub">Шнюк</h1>
-                <div class="caption">
-                    <img src="assets/shnuk.webp" class="img-main" alt="">
-                </div>
+                <img src="assets/characters/shnuk.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Паук Шнюк (также Дядя Шнюк) — паук, живущий в комеле
+                        <b>Паук Шнюк (также Дядя Шнюк)</b> — паук, живущий в комеле
                         <a class="link" href="#willow">ивы</a>.
                         Как и у обычного паука, у него 4 пары конечностей — 2 пары
                         рук и 2 пары ног. Лучший художник, поэт и музыкант
@@ -1348,10 +1338,10 @@
         <section id="shnuk-grandma" class="template">
             <section role="main">
                 <h1 class="page-title sub">Бабушка Шнюк</h1>
-                <img src="assets/shnuk-grandma.webp" class="img-main" alt="">
+                <img src="assets/characters/shnuk-grandma.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Бабушка паука Шнюка — паучиха, которая приходится бабушкой
+                        <b>Бабушка паука Шнюка</b> — паучиха, которая приходится бабушкой
                         <a class="link" href="#shnuk">Пауку Шнюку</a>.
                         Её имя нигде не называется. Ей должно быть много лет, потому что
                         сам Шнюк — немолодой паук. Шнюк любит свою бабушку и регулярно пишет ей письма.
@@ -1375,10 +1365,10 @@
         <section id="piyavka" class="template">
             <section role="main">
                 <h1 class="page-title sub">Пиявка (персонаж)</h1>
-                <img src="assets/piyavka.webp" class="img-main" alt="">
+                <img src="assets/characters/piyavka.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Пиявка (иногда Тётя Пиявка) — нервная и очень вредная пиявка.
+                        <b>Пиявка (иногда Тётя Пиявка)</b> — нервная и очень вредная пиявка.
                         Очень часто ругает всех вокруг, но иногда может составить хорошую компанию.
                         У Пиявки неприятный и пронзительный голос.
                     </p>
@@ -1403,10 +1393,10 @@
         <section id="korney" class="template">
             <section role="main">
                 <h1 class="page-title sub">Корней Корнеевич</h1>
-                <img src="assets/korney.webp" class="img-main" alt="">
+                <img src="assets/characters/korney.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Корней Корнеевич (Корней Корнеич, Дядя Корней или просто Корней) —
+                        <b>Корней Корнеевич (Корней Корнеич, Дядя Корней или просто Корней)</b> —
                         дождевой червь, местный инженер, врач, стоматолог, шахтёр и изобретатель.
                         Великий знаток и мастер на все руки, за что пользуется всеобщим уважением,
                         кроме <a class="link" href="#pupsenvupsen">Вупсеня и Пупсеня</a>,
@@ -1435,10 +1425,10 @@
         <section id="korney-web" class="template">
             <section role="main">
                 <h1 class="page-title sub">Норы Корнея Корнеевича</h1>
-                <img src="assets/korney-web.webp" class="img-main" alt="">
+                <img src="assets/places/korney-web.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Норы Корнея Корнеевича — сеть нор
+                        <b>Норы Корнея Корнеевича</b> — сеть нор
                         <a class="link" href="#korney">Корнея Корнеевича</a> под
                         <a class="link" href="#field">лесом</a>,
                         в которых он и проживает. Часто появляются в сериях.
@@ -1475,10 +1465,10 @@
         <section id="klava" class="template">
             <section role="main">
                 <h1 class="page-title sub">Жаба Клава</h1>
-                <img src="assets/klava.webp" class="img-main" alt="">
+                <img src="assets/characters/klava.webp" class="img-main" alt="">
                 <section class="about">
                     <p>
-                        Жаба Клава — жаба, живущая на <a class="link" href="#field">Поляне</a>.
+                        <b>Жаба Клава</b> — жаба, живущая на <a class="link" href="#field">Поляне</a>.
                         Имеет проблемы со связыванием
                         слов в предложения, раньше вообще не умела членораздельно говорить.
                         В серии «Большая» подросла и научилась писать.
@@ -1509,8 +1499,8 @@
                 <h1 class="page-title sub">Растения</h1>
                 <section class="about">
                     <p>
-                        В мультсериале появляется множество растений. Почти ни одна локация не обходится без них. Вот их
-                        список.
+                        В мультсериале появляется множество <b>растений</b>. Почти ни
+                        одна локация не обходится без них. Вот их список.
                     </p>
                     <div class="table-wrap">
                         <table class="flowers">
@@ -1743,6 +1733,27 @@
         app.innerHTML = ``;
         const tpl = document.querySelector(`#tpl-${name}`);
         app.appendChild(tpl.content.cloneNode(true));
+        if (name==='main') {
+            let menu = document.querySelector('.menu');
+            let burger = document.querySelector('.burger');
+            let block = document.querySelector('.block');
+            burger.addEventListener('click',  ()=>{
+                menu.classList.toggle('open');
+                block.classList.toggle('open');
+            });
+            document.querySelector('.block').addEventListener('click',  () => {
+                menu.classList.toggle('open');
+                block.classList.toggle('open');
+            });
+            document.querySelectorAll('.menu-item').forEach((elem) => {
+                elem.addEventListener('click',  () => {
+                    menu.classList.toggle('open');
+                    block.classList.toggle('open');
+                });
+            });
+        }else{
+            window.scrollTo(0, 0);
+        }
     }
 
     function handlePageChange() {
@@ -1777,13 +1788,13 @@
 
             gallery_section.querySelector(".content").appendChild(img_div);
 
-            exdended_img = extend_img_block(img);
+            let exdended_img = extend_img_block(img);
 
-            img.addEventListener('click', (e) => {
+            img.addEventListener('click', () => {
                 exdended_img.style.display = 'inline-flex';
             })
 
-            exdended_img.querySelector('.close').addEventListener('click', (e) => {
+            exdended_img.querySelector('.close').addEventListener('click', () => {
                 exdended_img.style.display = 'none';
             })
         }
@@ -1805,6 +1816,10 @@
 
     window.addEventListener('hashchange', handlePageChange);
     window.addEventListener('DOMContentLoaded', handlePageChange);
+
+    document.addEventListener('scroll', (event) => {
+       console.log(event);
+    });
 
 </script>
 </body>
